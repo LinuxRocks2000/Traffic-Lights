@@ -134,7 +134,7 @@ while 1:
             root.update()
             root.update_idletasks()
         elif d == "E": ## Exit
-            root.destroy()
+            client.close()
             playing = False
         elif d == "D": ## Destroy GUI
             root.destroy()
